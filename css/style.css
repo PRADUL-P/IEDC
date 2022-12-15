@@ -266,12 +266,12 @@ main > section {
   transition: all 0.8s ease 0s;
   background-color: rgba(0, 0, 0, 0.77);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  /* padding: 5px 0; */
+  padding: 5px 0;
 }
 
-/* #navigation.animated-header {
+#navigation.animated-header {
   padding: 20px 0;
-} */
+}
 
 .nav-link {
   font-size: 13px;
