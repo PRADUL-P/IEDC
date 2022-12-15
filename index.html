@@ -59,28 +59,7 @@
 
 	<link rel="stylesheet" href="style.css">
 
-    <!--Tailwind CSS-->
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-
-	<!-- <style type="text/tailwindcss">
-        @layer components {
-
-          .card {
-            @apply flex items-center justify-center flex-col gap-2 p-5 w-full sm:w-72 h-full bg-gray-100 border rounded-2xl;
-			width: 20rem;
-			height: 20rem;
-          }
-
-        }
-    </style> -->
-    <!--Tailwind CSS-->
-
-    <!--Font-Awesome-->
-    <!-- <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-    /> -->
+   
 <style>
 	
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
@@ -103,7 +82,7 @@
   width: var(--userthumb, 75px);
   height: var(--userthumb, 75px);
   flex: 0 0 auto;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   margin: 0px;
   padding: 0px;
 }
@@ -290,7 +269,7 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#body">
-        <img class="img-fluid" src="images/logo.png" alt="">
+        <img class="img-fluid" src="images/logo.png" alt="STM_IEDC" height="70" width="70">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -349,9 +328,13 @@
 								</h2>
 								<p class="animated fadeInDown"></p>
 								<a href="#feature" class="btn btn-blue btn-effect">read more</a>
+													<div class="w3-button">
+						
 							</div>
 						</div>
 					</div>
+					
+					
 
 				</div>
 
@@ -614,114 +597,55 @@
 
 	<!-- service section -->
 	<section id="service">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="section-title text-center">
-						<h2>services</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua.</p>
-					</div>
-					<ul class="about-filter text-center">
-						<li><a href="#" data-filter="*" class="active">All</a></li>
-						<li><a href="#" data-filter=".photoshop">Photoshop</a></li>
-						<li><a href="#" data-filter=".responsive">Responsive</a></li>
-						<li><a href="#" data-filter=".wordpress">WordPress</a></li>
-						<li><a href="#" data-filter=".illustrator">Illustrator</a></li>
-					</ul>
+		<div class="feat bg-gray pt-5 pb-5">
+			<div class="container">
+			  <div class="row">
+				<div class="section-title text-center col-sm-12">
+					<h2><span>services</h2>
+					<p></p>
+				  </div>
+				<div class="col-lg-4 col-sm-6">
+				  <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-users"></i></span>
+					<h6>Community Formation</h6>
+					<p>Forming a community who can pitch their innovative ideas. Community of Infinte Innovatice ideas.</p>
+				  </div>
 				</div>
+				<div class="col-lg-4 col-sm-6">
+				  <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-book"></i></span>
+					<h6>Research</h6>
+					<p> Researching about the Ideas presented by the Community and focusing on their drawbacks and rectifying it.
+					</p>
+				  </div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+				  <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-thumbs-o-up"></i></span>
+					<h6>Approval Of the Innovation</h6>
+					<p>After Rectifying the Drawbacks the idea presented will be approved by the Head Of Members.</p>
+				  </div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+				  <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-bar-chart"></i></span>
+					<h6>Competition</h6>
+					<p>The Innovation will be competiting in Summits conducted by Universities or Kerala Startup Mission Cell.</p>
+				  </div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+				  <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-link"></i></span>
+					<h6>Presentation</h6>
+					<p>On Competitions the approved ideas will be presented by the Presentation Team of respected Projects.</p>
+				  </div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+				  <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-desktop"></i></span>
+					<h6>Funding</h6>
+					<p>Best projects in the Summits Will Be funded by Kerala Start up mission to reach the innovation to the Society.</p>
+				  </div>
+				</div>
+			  </div>
 			</div>
-			<div class="row project-wrapper">
-				<div class="col-sm-6 col-md-4 photoshop">
-					<div class="about-item">
-						<img src="images/about/item-1.jpg" class="img-fluid w-100" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
-						<figcaption class="mask">
-							<h3>Wall street</h3>
-							<p>Responsive</p>
-						</figcaption>
-						<ul class="external">
-							<li><a class="fancybox" title="Araund The world" data-fancybox-group="works" href="images/about/item-1.jpg"><i
-							class="ion-ios-search"></i></a></li>
-							<li><a href=""><i class="ion-link"></i></a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 responsive">
-					<div class="about-item">
-						<img src="images/about/item-2.jpg" class="img-fluid w-100" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-						<figcaption class="mask">
-							<h3>Wall street</h3>
-							<p>Responsive</p>
-						</figcaption>
-						<ul class="external">
-							<li><a class="fancybox" title="Wall street" href="images/about/item-2.jpg" data-fancybox-group="works"><i class="ion-ios-search"></i></a></li>
-							<li><a href=""><i class="ion-link"></i></a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 wordpress">
-					<div class="about-item">
-						<img src="images/about/item-3.jpg" class="img-fluid w-100" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-						<figcaption class="mask">
-							<h3>Wall street</h3>
-							<p>Responsive</p>
-						</figcaption>
-						<ul class="external">
-							<li><a class="fancybox" title="Behind The world" data-fancybox-group="works" href="images/about/item-3.jpg"><i
-									 class="ion-ios-search"></i></a></li>
-							<li><a href=""><i class="ion-link"></i></a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 illustrator">
-					<div class="about-item">
-						<img src="images/about/item-4.jpg" class="img-fluid w-100" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
-						<figcaption class="mask">
-							<h3>Wall street</h3>
-							<p>Responsive</p>
-						</figcaption>
-						<ul class="external">
-							<li><a class="fancybox" title="Wall street 4" data-fancybox-group="works" href="images/about/item-4.jpg"><i
-									 class="ion-ios-search"></i></a></li>
-							<li><a href=""><i class="ion-link"></i></a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 photoshop">
-					<div class="about-item">
-						<img src="images/about/item-5.jpg" class="img-fluid w-100" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-						<figcaption class="mask">
-							<h3>Wall street</h3>
-							<p>Responsive</p>
-						</figcaption>
-						<ul class="external">
-							<li><a class="fancybox" title="Wall street 5" data-fancybox-group="works" href="images/about/item-5.jpg"><i
-									 class="ion-ios-search"></i></a></li>
-							<li><a href=""><i class="ion-link"></i></a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 illustrator">
-					<div class="about-item">
-						<img src="images/about/item-6.jpg" class="img-fluid w-100" alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
-						<figcaption class="mask">
-							<h3>Wall street</h3>
-							<p>Responsive</p>
-						</figcaption>
-						<ul class="external">
-							<li><a class="fancybox" title="Wall street 6" data-fancybox-group="works" href="images/about/item-6.jpg"><i
-									 class="ion-ios-search"></i></a></li>
-							<li><a href=""><i class="ion-link"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
+		  </div>
+		
+		
 	</section>
 	<!-- end about section -->
 
@@ -739,33 +663,33 @@
 				<div class="col-lg-12">
 					<div id="past event" class="">
 						<div class="past event-item text-center">
-							<img class="img-fluid" src="images/Arpit CMO.jpeg" alt="Our Clients">
-							<div class="clearfix">
-								<span>Katty Flower</span>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-									dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-									commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-									nulla pariatur.</p>
+							<img class="img-fluid" src="/images/portfolio/item-3.jpg" alt="Our Clients" height="300" width="200">
+														<div class="clearfix">
+														  <br>
+								<span>FOUNDATION SKILLS ON ENTREPRENEURSHIP</span>
+								<p>IEDC in association with ICT Academy and KSUM organized an inter college level 2 days workshop for aspiring students startup on “Foundation skills on Entrepreneurship” on 26th September to 27th September  2018. 32 students from different colleges including STM participated in the workshop</p>
+																	<a href="#feature" class="btn btn-blue btn-effect">read more</a>
+														
 							</div>
 						</div>
+						<br>
 						<div class="past event-item text-center">
-							<img class="img-fluid" src="images/Arpit CMO.jpeg" alt="Our Clients">
+							<img class="img-fluid" src="/images/portfolio/item-4.jpg" alt="Our Clients" height="300" width="200">
 							<div class="clearfix">
-								<span>Katty Flower</span>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-									dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-									commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-									nulla pariatur.</p>
+							  <br>
+								<span>START-UP STUDIO LAUNCH</span>
+								<p>I’M Startup Studio was launched at St Thomas College of Engineering and Technology with a vision of nurturing the very idea of entrepreneurship among the tech students on 26th September 2019 from college seminar hall. Dr. Shinu Mathew John (Principal) presided the function and the program was inaugurated by Mr. Nithin Madhavan ( CEO, Kannur Technolodge ). Thereafter he enlightened the students on why the startups need incubators. Mr. Aashin Muhammed (Marketing Manager of Tezzla Electric Bicycle) shared his startup experience with the students. Around 100 students attended the event. 10 students were selected as student ambassadors of startup studio and were awarded a badge.</p>
+																									<a href="#feature" class="btn btn-blue btn-effect">read more</a>
 							</div>
 						</div>
+						<br>
 						<div class="past event-item text-center">
-							<img class="img-fluid" src="images/Arpit CMO.jpeg" alt="Our Clients">
+							<img class="img-fluid" src="/images/portfolio/item-2.jpg" alt="Our Clients" height="300" width="200">
 							<div class="clearfix">
-								<span>Katty Flower</span>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-									dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-									commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-									nulla pariatur.</p>
+							  <br>
+								<span>IOT APPLICATION DEVELOPMENT WORKSHOPr</span>
+								<p>IEDC STM, ICT Academy of Kerala in association with Kerala Start-Up Mission is organized a two day workshop on IoT Application Development for IEDC students on 5th March -6th March 2019. This workshop was aimed to create a platform to learn various components, technique, and applications in IoT.  Furthermore it also help the Entrepreneur to build their product with industrial standards.</p>
+																									<a href="#feature" class="btn btn-blue btn-effect">read more</a>
 							</div>
 						</div>
 					</div>
@@ -821,103 +745,109 @@
 						  </div>
 						  <div class="team__details">
 							  <header class="team__meta">
-								<h3 class="team__meta__title">Stacey Cooper</h3>
-								<div class="team__meta__designation">Software Developer</div>
+								<h3 class="team__meta__title">Mr. Arpith Rameshan</h3>
+								<div class="team__meta__designation">CTO, IEDC | STM </div>
 							</header>
 							<div class="team__details__summery">
-							  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate exercitationem, consequatur dolores excepturi esse.
-							</div>
+								<p> <i class="bx bx-phone-call"></i><a href="tel:+919645703000 " target="_blank"> +91 9645703000</a></p>
+								<p><i class="bx bx-envelope"></i><a href="mailto:arpitrameshan777@gmail.com/" target="_blank">arpitrameshan777@gmail.com</a></p>
+						</div>
 						  </div>
 						</li>
 						
 						<li class="team__members">
 						   <div class="userProfile"  >
 							<figure class="userProfile__thumbnail">
-							  <img src="images/Arpit CMO.jpeg" alt="Photo" class="userProfile__image">
+							  <img src="images/Shahabas.jpeg" alt="Photo" class="userProfile__image">
 							</figure>
 						  
 					
 						  </div>
 						  <div class="team__details">
 							  <header class="team__meta">
-								<h3 class="team__meta__title">Bradley Pierce</h3>
-								<div class="team__meta__designation">Software Developer</div>
+								<h3 class="team__meta__title">Mr. MUHAMMED SHAHABAS T </h3>
+								<div class="team__meta__designation">CFO, IEDC | STM</div>
 							</header>
 							<div class="team__details__summery">
-							  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate exercitationem, consequatur dolores excepturi esse.
-							</div>
+								<p> <i class="bx bx-phone-call"></i><a href="tel:+917619318368 " target="_blank"> +91 7619318368</a></p>
+								<p><i class="bx bx-envelope"></i><a href="mailto:shahabas0519@gmail.com/" target="_blank">shahabas0519@gmail.com</a></p>
+						</div>
 						  </div>
 						</li>
 						<li class="team__members">
 							<div class="userProfile"  >
 							 <figure class="userProfile__thumbnail">
-							   <img src="images/Arpit CMO.jpeg" alt="Photo" class="userProfile__image">
+							   <img src="images/Rishikesh CCO.jpeg" alt="Photo" class="userProfile__image">
 							 </figure>
 						   
 					 
 						   </div>
 						   <div class="team__details">
 							   <header class="team__meta">
-								 <h3 class="team__meta__title">Bradley Pierce</h3>
-								 <div class="team__meta__designation">Software Developer</div>
+								 <h3 class="team__meta__title">Mr. Rheshikes P K</h3>
+								 <div class="team__meta__designation">CCO, IEDC | STM </div>
 							 </header>
 							 <div class="team__details__summery">
-							   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate exercitationem, consequatur dolores excepturi esse.
-							 </div>
+								<p> <i class="bx bx-phone-call"></i><a href="tel:+918137945196  " target="_blank">+91 8137945196 </a></p>
+								<p><i class="bx bx-envelope"></i><a href="mailto:rheshikespk@gmail.com /" target="_blank">rheshikespk@gmail.com </a></p>
+						 </div>
 						   </div>
 						 </li>
 						<li class="team__members">
 						   <div class="userProfile"  >
 							<figure class="userProfile__thumbnail">
-							  <img src="images/Arpit CMO.jpeg" alt="Photo" class="userProfile__image">
+							  <img src="images/Naveed.jpeg" alt="Photo" class="userProfile__image">
 							</figure>
 						  
 					
 						  </div>
 						  <div class="team__details">
 							  <header class="team__meta">
-								<h3 class="team__meta__title">Heidi Carpenter</h3>
-								<div class="team__meta__designation">Software Developer</div>
+								<h3 class="team__meta__title">Mr. Mohammed Naveed P V</h3>
+								<div class="team__meta__designation">CMO, IEDC | STM </div>
 							</header>
 							<div class="team__details__summery">
-							  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate exercitationem, consequatur dolores excepturi esse.
-							</div>
+								<p> <i class="bx bx-phone-call"></i><a href="tel:+919746108083 " target="_blank"> +91 9746108083 </a></p>
+								<p><i class="bx bx-envelope"></i><a href="mailto:naveedpv348@gmail.com/" target="_blank">naveedpv348@gmail.com</a></p>
+									</div>
 						  </div>
 						</li>
 						<li class="team__members">
 						   <div class="userProfile" >
 							<figure class="userProfile__thumbnail">
-							  <img src="images/Arpit CMO.jpeg" alt="Photo" class="userProfile__image">
+							  <img src="images/Neeha.jpeg" alt="Photo" class="userProfile__image">
 							</figure>
 						  
 					
 						  </div>
 						  <div class="team__details">
 							  <header class="team__meta">
-								<h3 class="team__meta__title">Jeremy Weaver</h3>
-								<div class="team__meta__designation">Software Developer</div>
+								<h3 class="team__meta__title"> Ms. Neeha Shirin K P</h3>
+								<div class="team__meta__designation">CSO, IEDC | STM</div>
 							</header>
 							<div class="team__details__summery">
-							  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate exercitationem, consequatur dolores excepturi esse.
+								<p> <i class="bx bx-phone-call"></i><a href="tel:+919207620104 " target="_blank"> +91 9207620104 </a></p>
+								<p><i class="bx bx-envelope"></i><a href="mailto:neehasherin987@gmail.com/" target="_blank"> neehasherin987@gmail.com </a></p>
 							</div>
 						  </div>
 						</li>
 						<li class="team__members">
 						   <div class="userProfile"  >
 							<figure class="userProfile__thumbnail">
-							  <img src="images/Arpit CMO.jpeg" alt="Photo" class="userProfile__image">
+							  <img src="images/RASI COO.jpeg" alt="Photo" class="userProfile__image">
 							</figure>
 						  
 					
 						  </div>
 						  <div class="team__details">
 							  <header class="team__meta">
-								<h3 class="team__meta__title">Jeanette Harvey</h3>
-								<div class="team__meta__designation">Software Developer</div>
+								<h3 class="team__meta__title">Mr. Muhammed Rasi K P</h3>
+								<div class="team__meta__designation">COO, IEDC | STM</div>
 							</header>
 							<div class="team__details__summery">
-							  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate exercitationem, consequatur dolores excepturi esse.
-							</div>
+								<p> <i class="bx bx-phone-call"></i><a href="tel:+919605942261" target="_blank"> +91 9605942261 </a></p>
+								<p><i class="bx bx-envelope"></i><a href="mailto:rasi239@gmail.com/" target="_blank">  rasi239@gmail.com </a></p>
+						</div>
 						  </div>
 						</li>
 						
@@ -946,152 +876,11 @@
 								<i class="fa-brands fa-dribbble fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
 							</div>
 			
-						</div>
+						</div>-->
 			
-						<div class="card">
-			
-							<img src="images/Arpit CMO.jpeg" class="w-24 h-24 rounded-full object-cover transition duration-200 hover:scale-110">
-			
-							<div class="text-gray-900 text-lg font-bold">Mr. Arpith Rameshan</div>
-			
-							<div class="text-purple-600">CTO, IEDC | STM </div>
-							
-							<div class="text-gray-600">
-								<p> <i class="bx bx-phone-call"></i><a href="tel:+919645703000 " target="_blank"> +91 9645703000</a></p>
-								<p><i class="bx bx-envelope"></i><a href="mailto:arpitrameshan777@gmail.com/" target="_blank">arpitrameshan777@gmail.com</a></p>
-							</div>
-						
-							
-							<div class="flex items-center justify-center gap-3 mt-2 w-auto h-5 text-gray-600">
-								<i class="fa-brands fa-twitter fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-linkedin fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-dribbble fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-							</div>
-			
-						</div>
-			
-						<div class="card">
-			
-							<img src="images/Shahabas.jpeg" class="w-24 h-24 rounded-full object-cover transition duration-200 hover:scale-110">
-			
-							<div class="text-gray-900 text-lg font-bold">Mr. MUHAMMED SHAHABAS T </div>
-			
-							<div class="text-purple-600">CFO, IEDC | STM</div>
-							
-							<div class="text-gray-600">
-								<p> <i class="bx bx-phone-call"></i><a href="tel:+917619318368 " target="_blank"> +91 7619318368</a></p>
-								<p><i class="bx bx-envelope"></i><a href="mailto:shahabas0519@gmail.com/" target="_blank">shahabas0519@gmail.com</a></p>
-						
-							</div>
 					
-							
-							<div class="flex items-center justify-center gap-3 mt-2 w-auto h-5 text-gray-600">
-								<i class="fa-brands fa-twitter fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-linkedin fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-dribbble fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-							</div>
-			
-						</div>
-			
-						<div class="card">
-			
-							<img src="images/Rishikesh CCO.jpeg" class="w-24 h-24 rounded-full object-cover transition duration-200 hover:scale-110">
-			
-							<div class="text-gray-900 text-lg font-bold">Mr. Rheshikes P K</div>
-			
-							<div class="text-purple-600"> CCO, IEDC | STM </div>
-							
-							<div class="text-gray-600">
-								<p> <i class="bx bx-phone-call"></i><a href="tel:+918137945196  " target="_blank">+91 8137945196 </a></p>
-								<p><i class="bx bx-envelope"></i><a href="mailto:rheshikespk@gmail.com /" target="_blank">rheshikespk@gmail.com </a></p>
-						
-							</div>
-					
-							
-							<div class="flex items-center justify-center gap-3 mt-2 w-auto h-5 text-gray-600">
-								<i class="fa-brands fa-twitter fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-linkedin fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-dribbble fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-							</div>
-			
-						</div>
-			
-						<div class="card">
-			
-							<img src="images/Naveed.jpeg" class="w-24 h-24 rounded-full object-cover transition duration-200 hover:scale-110">
-			
-							<div class="text-gray-900 text-lg font-bold">Mr. Mohammed Naveed P V</div>
-			
-							<div class="text-purple-600"> CMO, IEDC | STM </div>
-							
-							<div class="text-gray-600">
-						<p> <i class="bx bx-phone-call"></i><a href="tel:+919746108083 " target="_blank"> +91 9746108083 </a></p>
-						<p><i class="bx bx-envelope"></i><a href="mailto:naveedpv348@gmail.com/" target="_blank">naveedpv348@gmail.com</a></p>
-						   
-							</div>
-						
-							<div class="flex items-center justify-center gap-3 mt-2 w-auto h-5 text-gray-600">
-								<i class="fa-brands fa-twitter fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-linkedin fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-dribbble fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-							</div>
-			
-						</div>
-			
-						<div class="card">
-			
-							<img src="images/Neeha.jpeg" class="w-24 h-24 rounded-full object-cover transition duration-200 hover:scale-110">
-			
-							<div class="text-gray-900 text-lg font-bold"> Ms. Neeha Shirin K P</div>
-			
-							<div class="text-purple-600"> CSO, IEDC | STM </div>
-							
-							<div class="text-gray-600">
-								<p> <i class="bx bx-phone-call"></i><a href="tel:+919207620104 " target="_blank"> +91 9207620104 </a></p>
-								<p><i class="bx bx-envelope"></i><a href="mailto:neehasherin987@gmail.com/" target="_blank"> neehasherin987@gmail.com </a></p>
-						
-							</div>
-					
-							<div class="flex items-center justify-center gap-3 mt-2 w-auto h-5 text-gray-600">
-								<i class="fa-brands fa-twitter fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-linkedin fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-dribbble fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-							</div>
-			
-						</div>
-			
-						<div class="card">
-			
-							<img src="images/RASI COO.jpeg" class="w-24 h-24 rounded-full object-cover transition duration-200 hover:scale-110">
-			
-							<div class="text-gray-900 text-lg font-bold"> Mr. Muhammed Rasi K P</div>
-			
-							<div class="text-purple-600"> COO, IEDC | STM </div>
-							
-							<div class="text-gray-600">
-								<p> <i class="bx bx-phone-call"></i><a href="tel:+919605942261" target="_blank"> +91 9605942261 </a></p>
-								<p><i class="bx bx-envelope"></i><a href="mailto:rasi239@gmail.com/" target="_blank">  rasi239@gmail.com </a></p>
-						
-							</div>
-						
-							<div class="flex items-center justify-center gap-3 mt-2 w-auto h-5 text-gray-600">
-								<i class="fa-brands fa-twitter fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-linkedin fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-								<i class="fa-brands fa-dribbble fa-lg cursor-pointer transition duration-200 hover:text-gray-400"></i>
-							</div>
-			
-						</div>
-			
-						
-			
-					</div>
-			
-				</div>
-			
-
-			</div>
-		</div> -->
 	</section>
+
 
 	<!-- end teams section -->
 
